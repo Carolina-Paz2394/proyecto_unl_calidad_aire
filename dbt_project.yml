@@ -1,0 +1,17 @@
+name: 'proyecto_unl'
+version: '1.0.0'
+config-version: 2
+
+profile: 'proyecto_unl'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+
+models:
+  proyecto_unl:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
+      

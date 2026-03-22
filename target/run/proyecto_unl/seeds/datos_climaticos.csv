@@ -1,0 +1,14 @@
+
+    
+    
+    
+    create table "db_warehouse"."public"."datos_climaticos" ("ciudad" text,"temperatura" integer,"condicion" text)
+  ;
+    -- dbt seed --
+    
+          insert into "db_warehouse"."public"."datos_climaticos" ("ciudad", "temperatura", "condicion") values
+          (%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s)
+      
+
+;
+  
