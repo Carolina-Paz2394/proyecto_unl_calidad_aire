@@ -1,8 +1,0 @@
-version: 2
-
-sources:
-  - name: semillas
-    schema: public
-    tables:
-      - name: calidad_aire
-      - name: datos_climaticos
